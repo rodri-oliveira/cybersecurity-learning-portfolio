@@ -50,3 +50,11 @@ Revisar e publicar, individualmente, os relatórios pendentes de atividades já 
 ---
 
 **Objetivo profissional:** SOC Analyst Júnior / Analista de Segurança da Informação Júnior.
+
+
+## Segurança e qualidade das evidências
+
+- [Política de segurança e divulgação responsável](SECURITY.md)
+- [Padrão de evidências para relatórios SOC L1](docs/EVIDENCIAS.md)
+
+Os materiais publicados são exercícios de aprendizado e não constituem prova de experiência profissional em um SOC.
