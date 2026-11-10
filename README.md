@@ -1,58 +1,50 @@
 # Cybersecurity Learning Portfolio
 
-Meu objetivo é me tornar **Analista SOC Júnior** (Security Operations Center). Este repositório documenta, de forma prática, o que estou estudando no caminho: conceitos, comandos, problemas que encontrei e como resolvi.
+Portfólio de estudos e laboratórios para minha transição a **Analista de Segurança da Informação Júnior / SOC Analyst L1 (Blue Team)**.
 
-## Objetivo
+Documentação de aprendizado — não representa experiência profissional prévia em SOC. Meu método é **conceito → comando → execução → interpretação → relatório**, com foco em distinguir fatos observados de hipóteses.
 
-Um analista SOC monitora alertas, investiga atividades suspeitas e responde a incidentes de segurança. Para chegar lá, estou construindo a base em:
+## Relatórios publicados
 
-- Fundamentos de redes e sistemas (Windows e Linux)
-- Active Directory e autenticação
-- Análise de logs e monitoramento
-- Resposta a incidentes
-- Ferramentas de segurança (SIEM, análise de tráfego, entre outras)
+| Sala | Tema | Registro |
+| --- | --- | --- |
+| [Active Directory Basics](tryhackme/cyber-security-101/active-directory-basics.md) | Domínios, OUs, GPOs, autenticação e delegação | Relatório disponível |
 
-## Como estudo
+**Importante:** esta tabela lista somente arquivos cuja existência foi verificada. Outros exercícios concluídos ainda podem precisar de publicação ou revisão; não são apresentados aqui como relatórios disponíveis.
 
-Uso um ciclo curto e repetido: **conceito → comando → execução → interpretação**. Cada sala ou laboratório concluído vira uma anotação neste repositório, escrita com minhas palavras.
+## Trilhas de estudo
 
-## Trilha atual
+- **TryHackMe:** [perfil de aprendizado](https://tryhackme.com/p/rodrigoleao.ci).
+- **Pre Security:** concluída, conforme registro de progresso.
+- **Cyber Security 101:** em andamento.
+- **Laboratório pessoal:** [Blue Team SOC Lab](https://github.com/rodri-oliveira/blue-team-soc-lab), com foco inicial em auditoria de dispositivo próprio via ADB.
 
-**Plataforma:** [TryHackMe](https://tryhackme.com)
+## Competências em desenvolvimento
 
-| Trilha | Status |
-|---|---|
-| Pre Security | Concluída |
-| Cyber Security 101 | Em andamento |
+- Fundamentos de redes e protocolos; análise de tráfego.
+- Windows, PowerShell, Linux, Bash e permissões.
+- Autenticação, Active Directory e conceitos de controle de acesso.
+- Documentação de evidências e interpretação inicial de eventos.
+- Fundamentos de detecção e resposta a incidentes.
 
-## Anotações
+**SIEM, EDR e SOAR:** objetivos de estudo futuros, não experiência prática comprovada neste repositório.
 
-### TryHackMe · Cyber Security 101
+## Padrão dos relatórios
 
-| Sala | Tema | Status |
-|---|---|---|
-| [Active Directory Basics](tryhackme/cyber-security-101/active-directory-basics.md) | Domínios, OUs, GPOs, Kerberos, delegação | Concluída |
-| Windows Fundamentals 2 | Configuração do sistema, UAC, registro | Em andamento |
+Cada relatório deve documentar, quando aplicável:
 
-## Estrutura do repositório
+1. Objetivo e escopo do exercício.
+2. Ambiente autorizado e ferramentas.
+3. Conceitos e significado dos comandos e parâmetros.
+4. Procedimentos realizados e observações.
+5. Interpretação, limitações e lições aprendidas.
 
-```
-cybersecurity-learning-portfolio/
-├── README.md
-└── tryhackme/
-    └── cyber-security-101/
-        └── active-directory-basics.md
-```
-
-## Regras que sigo
-
-- Não publico flags nem respostas das perguntas das salas.
-- Registro conceitos, comandos e lições aprendidas, não gabaritos.
-- Todo laboratório é feito em ambiente autorizado, fornecido pela plataforma.
+Não publico flags, gabaritos, credenciais ou dados de terceiros. Evidências brutas devem ser sanitizadas antes de qualquer commit. O arquivo [`.gitignore`](.gitignore) é apenas uma proteção adicional e não substitui revisão manual.
 
 ## Próximos passos
 
-- Concluir a trilha Cyber Security 101
-- Praticar análise de logs e monitoramento
-- Estudar ferramentas de SIEM
-- Registrar cada sala concluída neste repositório
+Revisar e publicar, individualmente, os relatórios pendentes de atividades já realizadas; evoluir a análise de logs e alertas; ampliar práticas de laboratório Blue Team.
+
+---
+
+**Objetivo profissional:** SOC Analyst Júnior / Analista de Segurança da Informação Júnior.
