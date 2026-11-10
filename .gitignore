@@ -1,0 +1,27 @@
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Evidências brutas não sanitizadas
+raw/
+private/
+evidencias-brutas/
+*.pcap
+*.pcapng
+*.har
+*.log
+
+# Arquivos temporários
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
