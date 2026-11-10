@@ -29,6 +29,8 @@ Documentação de aprendizado — não representa experiência profissional pré
 
 **SIEM, EDR e SOAR:** objetivos de estudo futuros, não experiência prática comprovada neste repositório.
 
+Use o [modelo de relatório técnico](TEMPLATE-RELATORIO.md) para manter a documentação consistente e baseada em evidências reais.
+
 ## Padrão dos relatórios
 
 Cada relatório deve documentar, quando aplicável:
