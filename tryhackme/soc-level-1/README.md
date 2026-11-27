@@ -4,7 +4,7 @@ Laboratórios educacionais da trilha SOC Level 1 do TryHackMe. O foco é documen
 
 | ID | Estudo de caso | Competências | Modalidade |
 | --- | --- | --- | --- |
-| 001 | [Security Analyst Intro](case-studies/SOC-L1-001-Security-Analyst-Intro.md) | Priorização, reputação de IP, escalonamento e falso positivo | Simulação guiada |
+| 001 | [Security Analyst Intro](case-studies/SOC-L1-001-Security-Analyst-Intro.md) | Priorização, reputação de IP, escalonamento, falso positivo e contenção de acesso SSH | Simulação guiada |
 
 ## Padrão
 
