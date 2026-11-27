@@ -8,7 +8,18 @@ Documentação de aprendizado — não representa experiência profissional pré
 
 | Sala | Tema | Registro |
 | --- | --- | --- |
-| [Active Directory Basics](tryhackme/cyber-security-101/active-directory-basics.md) | Domínios, OUs, GPOs, autenticação e delegação | Relatório disponível |
+| [Build Your Cyber Security Career](tryhackme/cyber-security-101/Build-Your-Cyber-Security-Career.md) | Cyber Security 101 | Relatório disponível |
+| [Cryptography TryHackMe](tryhackme/cyber-security-101/Cryptography-TryHackMe.md) | Cyber Security 101 | Relatório disponível |
+| [Defensive Security Tooling](tryhackme/cyber-security-101/Defensive-Security-Tooling.md) | Cyber Security 101 | Relatório disponível |
+| [Defensive Security](tryhackme/cyber-security-101/Defensive-Security.md) | Cyber Security 101 | Relatório disponível |
+| [Exploitation Basics](tryhackme/cyber-security-101/Exploitation-Basics.md) | Cyber Security 101 | Relatório disponível |
+| [Linux Shells](tryhackme/cyber-security-101/Linux-Shells.md) | Cyber Security 101 | Relatório disponível |
+| [Networking](tryhackme/cyber-security-101/Networking.md) | Cyber Security 101 | Relatório disponível |
+| [Offensive Security Tooling Devie](tryhackme/cyber-security-101/Offensive-Security-Tooling-Devie.md) | Cyber Security 101 | Relatório disponível |
+| [Snort Challenge Live Attacks](tryhackme/cyber-security-101/Snort-Challenge-Live-Attacks.md) | Cyber Security 101 | Relatório disponível |
+| [Web Hacking](tryhackme/cyber-security-101/Web-Hacking.md) | Cyber Security 101 | Relatório disponível |
+| [active directory basics](tryhackme/cyber-security-101/active-directory-basics.md) | Cyber Security 101 | Relatório disponível |
+| [Security Analyst Intro](tryhackme/soc-level-1/case-studies/SOC-L1-001-Security-Analyst-Intro.md) | SOC Level 1 — triagem e investigação simulada | Estudo de caso disponível |
 
 **Importante:** esta tabela lista somente arquivos cuja existência foi verificada. Outros exercícios concluídos ainda podem precisar de publicação ou revisão; não são apresentados aqui como relatórios disponíveis.
 
@@ -16,7 +27,8 @@ Documentação de aprendizado — não representa experiência profissional pré
 
 - **TryHackMe:** [perfil de aprendizado](https://tryhackme.com/p/rodrigoleao.ci).
 - **Pre Security:** concluída, conforme registro de progresso.
-- **Cyber Security 101:** em andamento.
+- **Cyber Security 101:** relatórios de fundamentos publicados; conclusão integral não verificada.
+- **SOC Level 1:** em andamento — [índice dos estudos de caso](tryhackme/soc-level-1/README.md).
 - **Laboratório pessoal:** [Blue Team SOC Lab](https://github.com/rodri-oliveira/blue-team-soc-lab), com foco inicial em auditoria de dispositivo próprio via ADB.
 
 ## Competências em desenvolvimento
@@ -29,7 +41,7 @@ Documentação de aprendizado — não representa experiência profissional pré
 
 **SIEM, EDR e SOAR:** objetivos de estudo futuros, não experiência prática comprovada neste repositório.
 
-Use o [modelo de relatório técnico](TEMPLATE-RELATORIO.md) para manter a documentação consistente e baseada em evidências reais.
+Use o [modelo de relatório técnico](TEMPLATE-RELATORIO.md) para fundamentos e o [modelo de investigação SOC](tryhackme/soc-level-1/TEMPLATE-INVESTIGATION.md) para estudos de caso. Consulte também a [convenção de commits](docs/COMMITS.md).
 
 ## Padrão dos relatórios
 
@@ -45,7 +57,7 @@ Não publico flags, gabaritos, credenciais ou dados de terceiros. Evidências br
 
 ## Próximos passos
 
-Revisar e publicar, individualmente, os relatórios pendentes de atividades já realizadas; evoluir a análise de logs e alertas; ampliar práticas de laboratório Blue Team.
+Continuar a trilha SOC Level 1, documentar investigações conforme as evidências disponíveis, revisar relatórios anteriores quando necessário e ampliar práticas de laboratório Blue Team.
 
 ---
 
